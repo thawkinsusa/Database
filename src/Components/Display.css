@@ -1,0 +1,63 @@
+.display {
+    width: 50vw;
+    height: 25vh;
+    top: 10%;
+    right:23%;
+    border-color: black;
+    border-inline: 10px;
+    border-style: solid;
+    position: absolute;
+
+}
+.background{
+    background-color: black;
+}
+.name{
+    text-decoration: underline; 
+    text-decoration-color: rgb(18, 120, 216);
+}
+h1 {
+    background-color:rgb(47, 74, 192); 
+    width: 50vw;
+    height: 3vh;
+    position: absolute;
+    bottom: 81.5%
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 18.1px;
+    width: 5.5vw;
+    background-color: rgb(47, 74, 192);
+    position: relative;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color:rgb(47, 74, 192);
+    color: white;
+  }
+  .edit {
+    background-color: rgb(47, 74, 192);
+    color: white;
+  }
+  .delete {
+    background-color: rgb(47, 74, 192);
+    color: white;
+  }
+  .new {
+    background-color: rgb(47, 74, 192);
+    color: white;
+  }
+  .next {
+    background-color: rgb(47, 74, 192);
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }

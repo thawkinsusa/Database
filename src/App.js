@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import Display from './Components/Display'
 import './App.css';
-
+import Nav from './Components/Nav'
 function App() {
+  const preload = {
+    "data" : [
+      {
+        id: 1,
+        name: { first: "Waylin", last: "Lumsdon" },
+        city: "Likiep",
+        country: "Marshall Islands",
+        employer: "Twinder",
+        title: "Physical Therapy Assistant",
+        favoriteMovies: [
+          "That Night in Varennes (Nuit de Varennes, La)",
+          "Spy(ies) (Espion(s))",
+          "Klip (Clip)"
+        ]
+      }
+    ]
+  }
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Nav />
+   <Display items={preload} />
     </div>
   );
 }
